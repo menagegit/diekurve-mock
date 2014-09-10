@@ -1,8 +1,10 @@
-README
+DieKurveMock
+===========
 
 DieKurve_Mock is a reproduction of http://curvefever.com/ coded in C++, using Qt. I am currently working on a network stack on top of udp, in order to add networking to the game.
 
-Program organizations:
+Program organizations
+---------------------
 
 The root class is game_status_t which schedules the messages to the view, game_view_t, and point_joueur_t. It implements the time of the game:
 	on each clock tick (given by a qt timer):
